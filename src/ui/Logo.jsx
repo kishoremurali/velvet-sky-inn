@@ -6,8 +6,8 @@ function Logo() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <img
-        width="130px"
-        height="130px"
+        width="200px"
+        height="200px"
         src={isDarkMode ? "/logo-dark.png" : "/logo-light.png"}
         alt="Logo"
       />

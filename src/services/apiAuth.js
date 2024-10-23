@@ -18,6 +18,8 @@ export async function signup({ fullName, email, password }) {
 }
 
 export async function login({ email, password }) {
+  console.log(email);
+  console.log(password);
   const { data, error } = await supabase.auth.signInWithPassword({
     email,
     password,
